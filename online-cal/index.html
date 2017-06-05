@@ -20,19 +20,100 @@
 
 <body>
 
-  <div id="cal-body">
-    <div class="container" id="cal-screen">
-      <div id="cal-results">
-        <p>1</p>
-      </div>
-      <div id="cal-log">
-      </div>
+<div class="container" id="cal-body">
+  <!--calculator screens-->
+  <div class="row" id="cal-screen-input">
+    <p id="input"></p>
+  </div>
+  <div class="row" id="cal-screen-hist">
+    <p id="hist"></p>
+  </div>
+  <!--end of calculator screens-->
+
+  <!--calculator buttons-->
+  <div class="container" id="button-section">
+  <!--row 1-->
+  <div class="row buttons">
+    <div class="col-xs-3">
+      <button id="c">c</button>
     </div>
-
-    <div class="container" id="cal-buttons">
-
+    <div class="col-xs-3">
+      <button id="bracket">()</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="percent">%</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="divide">/</button>
     </div>
   </div>
+  <!--end of row 1-->
+  <!--row 2-->
+  <div class="row buttons">
+    <div class="col-xs-3">
+      <button id="7">7</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="8">8</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="9">9</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="multiply">x</button>
+    </div>
+  </div>
+  <!--end of row 2-->
+  <!--row 3-->
+  <div class="row buttons">
+    <div class="col-xs-3">
+      <button id="4">4</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="5">5</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="6">6</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="subtract">-</button>
+    </div>
+  </div>
+  <!--end of row 3-->
+  <!--row 4-->
+  <div class="row buttons">
+    <div class="col-xs-3">
+      <button id="1">1</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="2">2</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="3">3</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="add">+</button>
+    </div>
+  </div>
+  <!--end of row 4-->
+  <!--row 5-->
+  <div class="row buttons">
+    <div class="col-xs-3">
+      <button>n.a</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="0">0</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="decimal">.</button>
+    </div>
+    <div class="col-xs-3">
+      <button id="equals">=</button>
+    </div>
+  </div>
+  <!--end of row 5-->
+</div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

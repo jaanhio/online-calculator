@@ -1,29 +1,64 @@
-$button-color: rgb(0,100,100);
-$cal-body-color: rgb(200,200,200);
-$screen-color: rgb(200,100,20);
+$button-color: rgb(245, 234, 203);
+$cal-body-color: rgb(83, 152, 224);
+$screen-color: rgb(252, 234, 187);
 
 body{
-  background: white;
-  color: white;
+  background: rgb(252, 234, 187);
+  color: rgb(252, 234, 187);
 }
 
 
+#cal-app-bg{
+  background: white;
+}
 
 #cal-body{
-  width: 50%;
-  height:auto;
-  background: $cal-body-color;
-  margin: 50px auto auto auto;
-  border-radius: 5px;
-  //font: $color;
+    background-color: $cal-body-color;
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 320px;
+    height: 500px;
 }
 
-#cal-screen{
-  width:75%;
-  height:10%;
-  background: $screen-color;
-  margin: 10px auto 10px auto;
-  padding-top: 30px;
+#cal-screen-input, #cal-screen-hist{
+  background-color: $screen-color;
+  width: 75%;
   text-align: right;
-  display: block;
+  margin: 0 auto;
+}
+
+#cal-screen-input{
+  margin-top: 10px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#cal-screen-hist{
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#button-section{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width:320px;
+}
+
+.buttons{
+  padding-top: 5px;
+  margin: 40px auto;
+  text-align: center;
+  height: 30px;
+}
+
+button{
+  border-radius: 5px;
+  background-color: $button-color;
+}
+
+#input, #hist{
+  padding-right: 10px;
+  padding-top: 5px;
 }
