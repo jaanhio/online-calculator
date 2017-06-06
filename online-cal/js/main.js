@@ -25,5 +25,16 @@ $(document).ready(function(){
     $('#hist').html(histStr);
   });
 
+  $('#equals').on('click', function(e){
+    histArr.push("=");
+    $('#input').html("=");
+    histStr=histArr.join("");
+    $('#hist').html(histStr);
+  });
+
+  $('#c').on('click', function(e){
+    $('#input').html("");
+    $('#hist').html("");
+  });
 
 });
