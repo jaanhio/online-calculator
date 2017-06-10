@@ -10,8 +10,8 @@
   <!--include more info via meta -->
   <title>Wiki Search</title>
   <script src="https://use.fontawesome.com/60cfec0ead.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" type="text/css">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" type="text/css">-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
@@ -20,20 +20,77 @@
 
 <body>
 
-<div class="container" id="cal-body">
+  <div class="container">
+    <div class="calc-body">
+      <div class="calc-screen">
+        <div class="input-screen">
+          <p class="input-text" id="input"></p>
+        </div>
+        <div class="hist-screen">
+          <p class="hist-text" id="hist"></p>
+        </div>
+      </div>
+      <div class="calc-buttons">
+        <div class="row1">
+          <button id="c">C</button>
+          <button id="bracket">()</button>
+          <button id="percent">%</button>
+          <button id="divide">&divide;</button>
+        </div>
+        <div class="row2">
+          <button id="7">7</button>
+          <button id="8">8</button>
+          <button id="9">9</button>
+          <button id="multiply">&times;</button>
+        </div>
+        <div class="row3">
+          <button id="4">4</button>
+          <button id="5">5</button>
+          <button id="6">6</button>
+          <button id="subtract">-</button>
+        </div>
+        <div class="row4">
+          <button id="1">1</button>
+          <button id="2">2</button>
+          <button id="3">3</button>
+          <button id="addition">+</button>
+        </div>
+        <div class="row5">
+          <button id="backspace">&lt;</button>
+          <button id="0">0</button>
+          <button id="decimal">.</button>
+          <button id="equals">=</button>
+        </div>
+      </div>
+    </div>
+    <!--<footer>
+      <div class="footer">
+        <p>Designed by <a href="https://github.com/jaanhio">Jianhao Tan</a></p>
+      </div>
+    </footer>-->
+  </div>
+
+  <footer>
+    <div class="footer">
+      <p>Designed by <a href="https://github.com/jaanhio">Jianhao Tan</a></p>
+    </div>
+  </footer>
+
+
+<!--<div class="container" id="cal-body">-->
   <!--calculator screens-->
-  <div class="row" id="cal-screen-input">
+  <!--<div class="row" id="cal-screen-input">
     <p id="input"></p>
   </div>
   <div class="row" id="cal-screen-hist">
     <p id="hist"></p>
-  </div>
+  </div>-->
   <!--end of calculator screens-->
 
   <!--calculator buttons-->
-  <div class="container" id="button-section">
+  <!--<div class="container" id="button-section">-->
   <!--row 1-->
-  <div class="row buttons">
+  <!--<div class="row buttons">
     <div class="col-xs-3">
       <button id="c">c</button>
     </div>
@@ -46,10 +103,10 @@
     <div class="col-xs-3">
       <button id="divide">/</button>
     </div>
-  </div>
+  </div>-->
   <!--end of row 1-->
   <!--row 2-->
-  <div class="row buttons">
+  <!--<div class="row buttons">
     <div class="col-xs-3">
       <button id="7">7</button>
     </div>
@@ -62,10 +119,10 @@
     <div class="col-xs-3">
       <button id="multiply">*</button>
     </div>
-  </div>
+  </div>-->
   <!--end of row 2-->
   <!--row 3-->
-  <div class="row buttons">
+  <!--<div class="row buttons">
     <div class="col-xs-3">
       <button id="4">4</button>
     </div>
@@ -78,10 +135,10 @@
     <div class="col-xs-3">
       <button id="subtract">-</button>
     </div>
-  </div>
+  </div>-->
   <!--end of row 3-->
   <!--row 4-->
-  <div class="row buttons">
+  <!--<div class="row buttons">
     <div class="col-xs-3">
       <button id="1">1</button>
     </div>
@@ -94,10 +151,10 @@
     <div class="col-xs-3">
       <button id="addition">+</button>
     </div>
-  </div>
+  </div>-->
   <!--end of row 4-->
   <!--row 5-->
-  <div class="row buttons">
+  <!--<div class="row buttons">
     <div class="col-xs-3">
       <button id="backspace">&lt;</button>
     </div>
@@ -110,14 +167,14 @@
     <div class="col-xs-3">
       <button id="equals">=</button>
     </div>
-  </div>
+  </div>-->
   <!--end of row 5-->
-</div>
-</div>
+<!--</div>
+</div>-->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 <!--<script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script src="bower_components/bootstrap/less/bootstrap.less"></script>-->
